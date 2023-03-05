@@ -1,6 +1,5 @@
 
 import React from "react"
-import React from "react";
 const gifs=require('../../public/breakout-tutorial.gif')
 const Load=()=>{
     return(<div className='loa'>
