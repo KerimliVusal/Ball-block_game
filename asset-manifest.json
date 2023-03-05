@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/Ball-block_game/static/css/main.e9441108.chunk.css",
-    "main.js": "/Ball-block_game/static/js/main.7d76e83d.chunk.js",
-    "main.js.map": "/Ball-block_game/static/js/main.7d76e83d.chunk.js.map",
+    "main.js": "/Ball-block_game/static/js/main.46ba4533.chunk.js",
+    "main.js.map": "/Ball-block_game/static/js/main.46ba4533.chunk.js.map",
     "runtime~main.js": "/Ball-block_game/static/js/runtime~main.c8e0f6ce.js",
     "runtime~main.js.map": "/Ball-block_game/static/js/runtime~main.c8e0f6ce.js.map",
     "static/js/2.c25a89c9.chunk.js": "/Ball-block_game/static/js/2.c25a89c9.chunk.js",
     "static/js/2.c25a89c9.chunk.js.map": "/Ball-block_game/static/js/2.c25a89c9.chunk.js.map",
     "index.html": "/Ball-block_game/index.html",
-    "precache-manifest.8b8d87e8f45157500f7d892ac8e59724.js": "/Ball-block_game/precache-manifest.8b8d87e8f45157500f7d892ac8e59724.js",
+    "precache-manifest.7487d52c0204b0271ed79b98c975d830.js": "/Ball-block_game/precache-manifest.7487d52c0204b0271ed79b98c975d830.js",
     "service-worker.js": "/Ball-block_game/service-worker.js",
-    "static/css/main.e9441108.chunk.css.map": "/Ball-block_game/static/css/main.e9441108.chunk.css.map"
+    "static/css/main.e9441108.chunk.css.map": "/Ball-block_game/static/css/main.e9441108.chunk.css.map",
+    "static/media/breakout-tutorial.gif": "/Ball-block_game/static/media/breakout-tutorial.73527c04.gif"
   }
 }

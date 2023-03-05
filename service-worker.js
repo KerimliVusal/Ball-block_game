@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Ball-block_game/precache-manifest.8b8d87e8f45157500f7d892ac8e59724.js"
+  "/Ball-block_game/precache-manifest.7487d52c0204b0271ed79b98c975d830.js"
 );
 
 self.addEventListener('message', (event) => {
