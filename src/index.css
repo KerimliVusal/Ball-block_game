@@ -1,0 +1,162 @@
+html {
+  height: 100%;
+  --text-color: #e69e05;
+  --action-color: #f3270c;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+}
+
+
+
+#root {
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgb(104, 104, 250),rgb(247, 186, 186));
+  padding: 60px;
+}
+
+.scene-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scene {
+box-shadow:-2px 5px 10px 3px black;
+  background: linear-gradient(rgb(179, 179, 248),rgb(252, 249, 105));
+}
+
+.block {
+ 
+ stroke: black;
+}
+
+.paddle {
+  fill: #2f05ec;
+
+}
+
+.ball {
+  fill: rgb(98, 1, 224);
+}
+
+.level {
+  font-weight: bold;
+  fill:rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 800;
+  text-shadow: -4px 1px 3px black;
+}
+
+.life {
+  fill: rgb(204, 5, 5);
+}
+@keyframes load {
+  0%{
+      opacity: 0.08;
+      filter: blur(5px);
+      letter-spacing: 3px;
+      }
+  100%{
+
+      }
+}
+
+.animate {
+display:flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+margin: auto;
+font-family: Helvetica, sans-serif, Arial;
+animation: load 3.2s infinite 0s ease-in-out;
+animation-direction: alternate;
+text-shadow: -5px 0px 0px rgb(51, 51, 51);
+font-weight: 900;
+color: #facc4e;
+
+}
+.audo{
+  display:none;
+}
+
+.lds-ripple {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  color:black;
+  position: absolute;
+  top:25%;
+  left: 50%;
+  transform: translate(-50%,50%);
+}
+.lds-ripple div {
+  position: absolute;
+  border: 4px solid rgb(61, 61, 61);
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+  animation-delay: 0.5s;
+}
+@keyframes lds-ripple {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  4.9% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  5% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    opacity: 0;
+  }
+}
+.loa{
+  display: flex;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  position: relative;
+  background:linear-gradient(rgb(120, 120, 252),rgb(245, 204, 204));
+  
+}
+.img{
+  width: 90%;
+  box-shadow: 0px 3px 10px 4px gold;
+}
