@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Ball-block_game/static/css/main.e9441108.chunk.css",
+    "main.js": "/Ball-block_game/static/js/main.7d76e83d.chunk.js",
+    "main.js.map": "/Ball-block_game/static/js/main.7d76e83d.chunk.js.map",
+    "runtime~main.js": "/Ball-block_game/static/js/runtime~main.c8e0f6ce.js",
+    "runtime~main.js.map": "/Ball-block_game/static/js/runtime~main.c8e0f6ce.js.map",
+    "static/js/2.c25a89c9.chunk.js": "/Ball-block_game/static/js/2.c25a89c9.chunk.js",
+    "static/js/2.c25a89c9.chunk.js.map": "/Ball-block_game/static/js/2.c25a89c9.chunk.js.map",
+    "index.html": "/Ball-block_game/index.html",
+    "precache-manifest.8b8d87e8f45157500f7d892ac8e59724.js": "/Ball-block_game/precache-manifest.8b8d87e8f45157500f7d892ac8e59724.js",
+    "service-worker.js": "/Ball-block_game/service-worker.js",
+    "static/css/main.e9441108.chunk.css.map": "/Ball-block_game/static/css/main.e9441108.chunk.css.map"
+  }
+}
